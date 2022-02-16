@@ -1,0 +1,64 @@
+img {
+  width: 60px;
+  border-radius: 50px;
+}
+img,
+.sidebar {
+  border-right: 2px solid #e5e5e5;
+}
+.sidebar2 {
+  margin: 0;
+  padding-left: 4px;
+  border-left: 2px solid #e5e5e5;
+}
+.head {
+  display: flex;
+}
+.date,
+p {
+  color: silver;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+h6,
+.invite {
+  color: #3e92cc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+div.messages {
+  margin: 0;
+  display: flex;
+}
+.myUser {
+  display: flex;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #e5e5e5;
+}
+.user {
+  border: 3px solid #0b5ed7;
+}
+.h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chat-icon {
+  padding-top: 5px;
+  color: #0b5ed7;
+  font-size: 1.8rem;
+}
+.chat-section {
+  padding: 40px 0px;
+  background-color: #f4f3ee;
+  border-radius: 10%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.call {
+  color: #0b5ed7;
+  font-size: 1.9rem;
+}
+h4 {
+  padding: 8px 20px;
+  background-color: white;
+  color: #2b2d42;
+  border-radius: 50%;
+}
