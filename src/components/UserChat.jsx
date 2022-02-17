@@ -40,11 +40,11 @@ function UserChat() {
 
   return (
     <div className="container text-center">
-     <div className="head">
+     <div className="head col-12">
          <div className="chat-icon">
      <BsFillChatLeftDotsFill />
          </div>
-     <h4 class="h4">You are chatting with John</h4>
+     <h4 className="h4">You are chatting with John</h4>
      <p className="date ms-auto mt-2">October 12, 2017</p>
      <FiPhoneCall className="call mx-4 mt-2" />
      <BsFillCameraVideoFill className="call mx-2 mt-2"/>

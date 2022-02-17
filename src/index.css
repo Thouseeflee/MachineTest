@@ -36,7 +36,7 @@ div.messages {
   border-bottom: 2px solid #e5e5e5;
 }
 .user {
-  border: 3px solid #0b5ed7;
+  border: 5px solid #0b5eda;
 }
 .h4 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -61,4 +61,19 @@ h4 {
   background-color: white;
   color: #2b2d42;
   border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .h4 {
+    display: none;
+  }
+  img {
+    width: 50px;
+  }
+  .sidebar {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  h4 {
+    font-size: 1rem;
+  }
 }
